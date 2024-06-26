@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  background: #dddfe2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 20px;
+  width: 10px;
+}
+.pp {
+  height: 100%;
+  background-color: #f0f2f5;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftside {
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.image1 {
+  width: 550px;
+  margin-top: 30px;
+  margin-left: 350px;
+}
+
+.rightside {
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.signin-container {
+  border: 1px solid #dbdbdb;
+  padding: 20px 30px;
+}
+
+.pic {
+  width: 175px;
+  margin: 30px 0px;
+}
+
+.input {
+  width: 100%;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  padding: 8px;
+  margin: 4px 1px;
+}
+
+.button {
+  width: 100%;
+  background-color: #4cb5f9;
+  color: white;
+  padding: 5px 0px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  height: 32px;
+  font-weight: 600px;
+}
+
+p {
+  margin-top: 15px;
+  color: #385185;
+}
+
+.border {
+  border: 0.8px solid #dbdbdb;
+  text-align: center;
+  line-height: 41px;
+  margin: 10px 0px;
+  padding-bottom: 10px;
+}
+
+.font {
+  color: #000;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.gogle {
+  flex: 1;
+  width: 100px;
+}
+
+.microsoft {
+  flex: 1;
+  width: 10px;
+  margin-left: 10px;
+}
+
+.footer {
+  height: 10vh;
+}
+
+.get-app {
+  margin: 15px 0px;
+  text-align: center;
+  font-weight: normal;
+}
+.text-center {
+  text-align: center;
+  font-weight: bold;
+}
+
+.or-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.or-border {
+  border-top: 1px solid rgb(219, 219, 219);
+  flex: 1;
+}
+
+.or-text {
+  margin: 0px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #737373;
+}
+
+.opp {
+  color: #00376b;
+  text-align: center;
+}
+
+.blue {
+  color: #0095f6;
+}
+
+ul {
+  display: inline-block;
+  text-align: center;
+  padding: 8px;
+  margin-left: 200px;
+  color: #8a8d91;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin: 5px 8px;
+  font-size: 14px;
+}
+
+.order {
+  border: 1px solid #dddfe2;
+  margin: 10px;
+  margin: 0px 100px;
+}
